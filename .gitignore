@@ -1,0 +1,23 @@
+# Sensitive configuration
+config.py
+
+# Database files
+*.db
+database/*.db
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

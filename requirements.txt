@@ -1,0 +1,19 @@
+# Requirements for Shopping Cart Application
+
+# Database
+psycopg2>=2.9.3  # PostgreSQL adapter
+
+# Email
+smtplib  # Standard library
+email  # Standard library
+
+# GUI
+tkinter  # Standard library
+
+# Security
+hashlib  # Standard library
+hmac  # Standard library
+base64  # Standard library
+
+# Date and Time
+datetime  # Standard library
