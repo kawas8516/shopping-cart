@@ -117,3 +117,35 @@ shopping_cart/
 - Input validation for all user inputs
 - PostgreSQL database with proper data types and constraints
 - Customer data privacy and secure storage
+
+## Future Enhancements
+
+### Critical Missing Functions
+- **Employee Panel**: Complete implementation of employee management interface (currently partially implemented)
+- **Unified Storage System**: Resolve dual invoice storage (database + in-memory) inconsistency
+- **Authentication System**: Implement employee login/logout with password hashing
+- **Sales Reports**: Complete sales reporting functionality with date range analysis
+
+### Planned Features
+- **PDF Bill Generation**: Generate and email PDF invoices
+- **Inventory Management**: Item catalog with stock tracking and low-stock alerts
+- **Advanced Reporting**: Daily/weekly/monthly sales analytics and customer insights
+- **Data Management**: Backup/restore, export/import capabilities
+- **User Experience**: Dark mode, keyboard shortcuts, better error handling
+- **Advanced Features**: Barcode scanning, receipt printing, multi-currency support
+- **Quality Assurance**: Unit tests, integration tests, comprehensive logging
+
+### Code Quality Improvements
+- **Architecture**: Implement proper MVC separation and service layer
+- **Error Handling**: Enhanced exception handling and user feedback
+- **Configuration**: Environment-based settings and secure credential management
+- **Documentation**: Complete API documentation and user guides
+
+### Priority Implementation Roadmap
+1. Fix Employee Panel and core missing functions
+2. Implement authentication and security enhancements
+3. Add PDF generation and complete billing workflow
+4. Build inventory management system
+5. Enhance reporting and analytics
+6. Improve UI/UX and add advanced features
+7. Implement testing and documentation
